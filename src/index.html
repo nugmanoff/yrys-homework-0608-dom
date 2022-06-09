@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You DJ</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+</head>
+<body>
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top_block">
+
+                <div class="header__top_block__logo">
+
+                    <a href="#">
+                        <svg width="80" height="18" viewBox="0 0 232.713 52.475">
+                            <path d="M-.114.952a30.428,30.428,0,0,1-7.2-.781,20.123,20.123,0,0,1-5.637-2.247A15.723,15.723,0,0,1-17.1-5.656a17.569,17.569,0,0,1-2.742-4.78,20.733,20.733,0,0,1-1.2-4.723,42.09,42.09,0,0,1-.362-5.789V-50.959h9.331v29.174a22.2,22.2,0,0,0,1.295,8.455A9.6,9.6,0,0,0-6.551-8.436,13.565,13.565,0,0,0,0-6.932a13.565,13.565,0,0,0,6.551-1.5,9.6,9.6,0,0,0,4.228-4.894,22.2,22.2,0,0,0,1.295-8.455V-50.959H21.4v30.012a42.09,42.09,0,0,1-.362,5.789,20.733,20.733,0,0,1-1.2,4.723,17.3,17.3,0,0,1-2.761,4.78,15.677,15.677,0,0,1-4.228,3.58A20.929,20.929,0,0,1,7.122.171,30.913,30.913,0,0,1-.114.952Z" transform="translate(126.215 51.475)" fill="#fff"></path>
+                            <path d="M26.065-51.935,4.875-21.255V.065H-5.33v-21.45l-20.085-30.55h11.7L-.195-30.1l14.1-21.84Z" transform="translate(25.415 51.975)" fill="#fff"></path>
+                            <path d="M24.867-26.737A25.747,25.747,0,0,1,22.81-16.5,26.141,26.141,0,0,1,17.191-8.15a26.776,26.776,0,0,1-8.29,5.6A25,25,0,0,1-1.169-.5a25.212,25.212,0,0,1-10.1-2.055,26.676,26.676,0,0,1-8.321-5.6,26.235,26.235,0,0,1-5.619-8.314,25.678,25.678,0,0,1-2.057-10.274A25.9,25.9,0,0,1-25.21-37.043a26.141,26.141,0,0,1,5.619-8.345,26.233,26.233,0,0,1,8.321-5.564,25.552,25.552,0,0,1,10.1-2.023A25.331,25.331,0,0,1,8.9-50.952a26.065,26.065,0,0,1,8.29,5.6,26.614,26.614,0,0,1,5.619,8.345A25.679,25.679,0,0,1,24.867-26.737Zm-9.529,0a16.662,16.662,0,0,0-1.293-6.544A17.2,17.2,0,0,0,10.5-38.655a17.056,17.056,0,0,0-5.266-3.667,15.419,15.419,0,0,0-6.406-1.359,15.564,15.564,0,0,0-6.467,1.359A17.056,17.056,0,0,0-12.9-38.655a17.2,17.2,0,0,0-3.542,5.374,16.662,16.662,0,0,0-1.293,6.544,16.734,16.734,0,0,0,1.293,6.512A17.1,17.1,0,0,0-12.9-14.82a17.056,17.056,0,0,0,5.266,3.667A15.564,15.564,0,0,0-1.169-9.794a15.419,15.419,0,0,0,6.406-1.359A17.056,17.056,0,0,0,10.5-14.82a17.1,17.1,0,0,0,3.542-5.406A16.734,16.734,0,0,0,15.338-26.737Z" transform="translate(74.683 52.975)" fill="#fff"></path>
+                            <path d="M14.8-17.206a18.433,18.433,0,0,1-1.83,8.667A17.559,17.559,0,0,1,8.507-2.953,16.522,16.522,0,0,1,2.889.064a18.814,18.814,0,0,1-5.361.9,17.769,17.769,0,0,1-8.314-2.054,19.692,19.692,0,0,1-6.58-5.457l6.548-6.484a9.222,9.222,0,0,0,3.338,3.21A8.537,8.537,0,0,0-3.242-8.667,7.953,7.953,0,0,0-.353-9.213a8,8,0,0,0,2.536-1.573,7.651,7.651,0,0,0,1.8-2.5,8.115,8.115,0,0,0,.674-3.4V-51.3H14.8Z" transform="translate(217.915 51.475)" fill="#f70"></path>
+                            <path d="M24.107-25.68a27.469,27.469,0,0,1-1.8,9.983A25.537,25.537,0,0,1,17.3-7.543,23.388,23.388,0,0,1,9.63-2.022,23.283,23.283,0,0,1-.1,0H-21.539V-51.36H-.1A22.973,22.973,0,0,1,9.63-49.306,24.023,24.023,0,0,1,17.3-43.784a25.077,25.077,0,0,1,5.008,8.153A27.546,27.546,0,0,1,24.107-25.68Zm-10.079-.257a18.924,18.924,0,0,0-1.091-6.805A16.671,16.671,0,0,0,9.6-38.36a15.417,15.417,0,0,0-5.361-3.788,17.8,17.8,0,0,0-7.158-1.38h-8.667V-8.474h8.667A17.9,17.9,0,0,0,4.109-9.79a15.248,15.248,0,0,0,5.3-3.659,16.449,16.449,0,0,0,3.37-5.521A20.77,20.77,0,0,0,14.028-25.937Z" transform="translate(177.915 51.775)" fill="#f70"></path>
+                            <path d="M24.107-25.68a27.469,27.469,0,0,1-1.8,9.983A25.537,25.537,0,0,1,17.3-7.543,23.388,23.388,0,0,1,9.63-2.022,23.283,23.283,0,0,1-.1,0H-21.539V-51.36H-.1A22.973,22.973,0,0,1,9.63-49.306,24.023,24.023,0,0,1,17.3-43.784a25.077,25.077,0,0,1,5.008,8.153A27.546,27.546,0,0,1,24.107-25.68Zm-10.079-.257a18.924,18.924,0,0,0-1.091-6.805A16.671,16.671,0,0,0,9.6-38.36a15.417,15.417,0,0,0-5.361-3.788,17.8,17.8,0,0,0-7.158-1.38h-8.667V-8.474h8.667A17.9,17.9,0,0,0,4.109-9.79a15.248,15.248,0,0,0,5.3-3.659,16.449,16.449,0,0,0,3.37-5.521A20.77,20.77,0,0,0,14.028-25.937Z" transform="translate(177.915 51.775)" fill="#f70"></path>
+                        </svg>
+                    </a>
+            
+                    <div class="header__top_block__logoDesc">the most fun and easy DJ app</div>
+            
+                </div>
+        
+                <div class="recordbut">
+                    <div class="recorddot"></div>
+                    <span>REC</span>
+                </div>
+        
+                <ul class="header__top_menu">
+                    <li class="header__top_list">  <a href="#" class="header__link sign_in">Войти</a></li>
+                    <li class="header__top_list">  <a href="#" class="header__link dw">Download YouDJ</a></li>
+                    <li class="header__top_list">
+                        <a href="#" class="header__link">
+                          <svg id="menu_settings" class="topbutton" viewBox="0 0 24 24" width="22" height="22"><path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="header__top_list">
+                        <a href="#" class="header__link">
+                          <svg id="menu_help" class="topbutton" viewBox="0 0 512 512" width="18.5" height="18.5"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="header__top_list">
+                        <a href="#" class="header__link">
+                            <svg id="menu_waveform" class="topbutton topbutton_active"viewBox="0 0 100 100" width="27" height="27"><path d="M40,62.5A2.5,2.5,0,0,1,37.5,60V40a2.5,2.5,0,0,1,5,0V60A2.5,2.5,0,0,1,40,62.5Z"></path><path d="M80,62.5A2.5,2.5,0,0,1,77.5,60V40a2.5,2.5,0,0,1,5,0V60A2.5,2.5,0,0,1,80,62.5Z"></path><path d="M70,72.5A2.5,2.5,0,0,1,67.5,70V30a2.5,2.5,0,0,1,5,0V70A2.5,2.5,0,0,1,70,72.5Z"></path><path d="M60,82.5A2.5,2.5,0,0,1,57.5,80V20a2.5,2.5,0,0,1,5,0V80A2.5,2.5,0,0,1,60,82.5Z"></path><path d="M50,72.5A2.5,2.5,0,0,1,47.5,70V30a2.5,2.5,0,0,1,5,0V70A2.5,2.5,0,0,1,50,72.5Z"></path><path d="M30,72.5A2.5,2.5,0,0,1,27.5,70V30a2.5,2.5,0,0,1,5,0V70A2.5,2.5,0,0,1,30,72.5Z"></path><path d="M20,62.5A2.5,2.5,0,0,1,17.5,60V40a2.5,2.5,0,0,1,5,0V60A2.5,2.5,0,0,1,20,62.5Z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="header__top_list" id="fullScreen">
+                        <svg id="menu_fullscreen" class="topbutton" style="position:absolute; right:-2px; top:0px;  padding:2.5px 2.5px 2.5px 4.5px;" viewBox="0 0 24 24" width="27" height="27"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <section class="header">
+        <div class="header__bg"></div> 
+        <div class="container">
+
+
+
+            <div id="waveform"></div>
+
+            <div class="diskShow">
+                <div class="player paused" id="playbtn" >
+                    <div class="album">
+                      <div class="cover">
+                        <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/38273/3rdburglar-cover-192.jpg" alt="3rdburglar by Wordburglar" id="diskImg"/></div>
+                      </div>
+                    </div>
+                    
+                    <div class="info">
+                      <div class="time">
+                        <span class="current-time">0:00</span>
+                        <span class="progress"><span></span></span>
+                        <span class="duration">0:00</span>
+                      </div>
+                      
+                      <h1 id="songName">Jensation Joystick</h1>
+                      <h2 id="songKinds">NCS Release</h2>
+                    </div>
+                    
+                    <div class="actions">
+                      <button class="shuffle">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                      </button>
+                      <button class="button rw" id="prevBtn">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                      </button>
+                      <button class="button play-pause">
+                        <div class="arrow"></div>
+                      </button>
+                      <button class="button ff" id="nextBtn">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                      </button>
+                      <button class="repeat"></button>
+                      <button class="sound" id="soundAudio" >
+                        <i class="fa-solid fa-volume-high active"></i>
+                      </button>
+                    </div>
+                    
+                    <audio prelaod src="./audio/song1.mp3" id="audioMp3" class="audio1" ></audio>
+                  </div>
+
+                  <div class="listSoungs">
+                      <table class="listSoungs__table">
+                        <tbody>
+
+                          <tr>
+                            <td width="50" class="songPlayIcon" id="soung1" ><i style="font-size:13px;" class="fas fa-play"></i></td>
+                            <td width="280" class="songName">Jensation Joystick</td>
+                            <td width="480"> <p> NCS Release </p> </td>
+                            <td width="40" >80</td>
+                            <td width="60" >3:48</td>
+                          </tr>
+
+                          <tr>
+                            <td width="50" class="songPlayIcon" id="soung2" ><i style="font-size:13px;" class="fas fa-play"></i></td>
+                            <td width="280" class="songName">NEFFEX</td>
+                            <td width="480"> <p>R.I.P</p> </td>
+                            <td width="40" >120</td>
+                            <td width="60" >3:02</td>
+                          </tr>
+                        </tbody> 
+                      </table>
+
+                      <div class="uploadSongs">
+                        <!-- <audio id = "audio1" controls></audio> -->
+                         <h1 class="headTxt">Upload music file</h1>
+                         <input type="file" id="fileupload" accept="audio/*" /> 
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="visulation">
+      <div id="container"> 
+        <canvas id="canvas1">
+
+        </canvas>
+      </div>
+    </section>
+
+    <script  src="js/modules/cardAudio.js" ></script>
+    <script src ="js/modules/musicVisualization.js"></script>
+    <script  src="js/bundle.js"></script>
+    
+</body>
+</html>
