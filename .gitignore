@@ -26,5 +26,3 @@ yarn-error.log*
 .jshintrc
 
 package-lock.json
-bundle.js 
-bundle.js.map
